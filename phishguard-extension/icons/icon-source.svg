@@ -1,0 +1,57 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E88A8"/>
+      <stop offset="100%" stop-color="#0B4F6C"/>
+    </linearGradient>
+    <linearGradient id="envGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8F6F8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield -->
+  <path d="M64 6
+           L112 22
+           V60
+           C112 92 92 114 64 124
+           C36 114 16 92 16 60
+           V22
+           Z"
+        fill="url(#shieldGrad)"
+        stroke="#08344A"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+  <!-- Inner highlight ring -->
+  <path d="M64 14
+           L104 28
+           V60
+           C104 87 87 106 64 115
+           C41 106 24 87 24 60
+           V28
+           Z"
+        fill="none"
+        stroke="#5BC0D8"
+        stroke-width="2"
+        opacity="0.55"/>
+
+  <!-- Envelope body -->
+  <rect x="35" y="48" width="58" height="40" rx="4"
+        fill="url(#envGrad)"
+        stroke="#0B4F6C"
+        stroke-width="3"/>
+
+  <!-- Envelope flap -->
+  <path d="M35 52 L64 74 L93 52"
+        fill="none"
+        stroke="#0B4F6C"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Alert mark on envelope (phishing warning) -->
+  <circle cx="64" cy="97" r="10" fill="#E4572E" stroke="#08344A" stroke-width="2"/>
+  <rect x="61.5" y="91" width="5" height="8" rx="2" fill="#FFFFFF"/>
+  <circle cx="64" cy="102.5" r="2.2" fill="#FFFFFF"/>
+</svg>

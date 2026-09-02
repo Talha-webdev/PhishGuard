@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local datasets
+# Keep dataset files out of GitHub unless you intentionally want to publish them.
+dataset/*.csv
+dataset/*.zip
+
+# Do not commit local Python cache folders
+**/__pycache__/

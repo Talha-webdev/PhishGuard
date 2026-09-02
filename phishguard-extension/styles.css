@@ -1,0 +1,89 @@
+/* PhishGuard - styles.css */
+/* Banner styles are handled inline in content.js for injection reliability */
+/* This file is used for popup.html styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+  min-height: 180px;
+  padding: 16px;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  background: #ffffff;
+  color: #202124;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #e8eaed;
+}
+
+.header-icon {
+  font-size: 26px;
+}
+
+.header h1 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a73e8;
+  letter-spacing: 0.3px;
+}
+
+/* ── Status Box ── */
+.status-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 13px;
+  color: #5f6368;
+  line-height: 1.5;
+  border: 1px solid #e8eaed;
+}
+
+/* ── API Status Indicator ── */
+#api-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e8eaed;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #dadce0;
+  flex-shrink: 0;
+}
+
+.dot.online {
+  background: #1e8e3e;
+  box-shadow: 0 0 0 3px rgba(30, 142, 62, 0.2);
+}
+
+.dot.offline {
+  background: #d93025;
+  box-shadow: 0 0 0 3px rgba(217, 48, 37, 0.2);
+}
+
+/* ── Footer ── */
+.footer {
+  margin-top: 14px;
+  font-size: 11px;
+  color: #9aa0a6;
+  text-align: center;
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+torch==2.5.1
+numpy
+pandas
+scikit-learn
+nltk
+matplotlib
