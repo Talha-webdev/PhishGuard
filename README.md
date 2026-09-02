@@ -193,5 +193,5 @@ Use `.env.example` as the template for environment configuration.
 
 **Muhammad Talha**
 
-PhishGuard was developed as an academic machine learning project focused on
+PhishGuard was developed as a Final Year   academic machine learning project focused on
 detecting phishing emails using deep learning.
